@@ -39,9 +39,10 @@ formEl.onsubmit = function(e) {
 clear.onclick = function() {
   // Clear textarea's value
   // Clear localstorage's content
-  // YOUR CODE HERE
+  
   textarea.value ="";
   localStorage.removeItem('notes');
+  
   // triggers thumbs up animation
   this.classList.add('emoji')
 }
